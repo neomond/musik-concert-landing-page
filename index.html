@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musik Concert Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- <link rel="stylesheet" href="sweetalert2.min.css" /> -->
+    <link rel="stylesheet" href="dist/main.css" />
+  </head>
+
+  <body>
+    <header class="header" id="section--01">
+      <!-- Navigation menu -->
+      <nav class="nav skicky">
+        <div class="nav-logo">
+          <img src="imgs/nav-logo.png" alt="navigaion logo" />
+        </div>
+        <ul class="nav-links">
+          <li><a class="nav__link" href="#section--01">Home</a></li>
+          <li><a class="nav__link" href="#section--2">Speakers</a></li>
+          <li><a class="nav__link" href="#section--3">Schedule</a></li>
+          <li><a class="nav__link" href="#section--4">Contact Us</a></li>
+        </ul>
+        <button class="nav-btn">Get Tickets</button>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+
+      <div class="hero-section">
+        <h1>
+          The Best experience of
+          <span style="color: #ffa3a3">music</span> in 2022
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          vitae ligula placerat, eleifend ex non, vehicula libero. Suspendisse
+          eget tellus lectus.
+        </p>
+        <div class="hero-span">
+          <span class="hero-btn btn--scroll-to">Get Started</span>
+          <span class="hero-icon"
+            ><a
+              target="_blank"
+              href="https://www.youtube.com/watch?v=Lomnl3Ri6aY"
+              ><img src="imgs/play-icon.png" alt="play icon hero"
+            /></a>
+          </span>
+          <span class="hero-caption"><b>Watch Video</b> </span>
+        </div>
+        <div class="hero-remained-timing">
+          <p id="hero-time"></p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Section 1 swiper cards-->
+      <section class="explore--category" id="section--1">
+        <h3><span style="color: #381ddb">Explore</span> By Category</h3>
+
+        <div class="swiper swiper-first-section">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide swiper--slide swiper--pop">
+              <div>
+                <img src="imgs/dj-mixer.png" alt="dj mixer icon" />
+              </div>
+              <h4>Pop</h4>
+              <p>
+                Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                vitae
+              </p>
+            </div>
+            <div class="swiper-slide swiper--slide swiper--bagpipe">
+              <div>
+                <img src="imgs/bagpipes.png" alt="bagpipes icon" />
+              </div>
+              <h4>Folk</h4>
+              <p>
+                Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                vitae
+              </p>
+            </div>
+            <div class="swiper-slide swiper--slide swiper--saxophone">
+              <div>
+                <img src="imgs/saxophone.png" alt="saxophone icon" />
+              </div>
+              <h4>Instrumental</h4>
+              <p>
+                Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                vitae
+              </p>
+            </div>
+            <div class="swiper-slide swiper--slide swiper--rock">
+              <div>
+                <img src="imgs/guitar.png" alt="guitar icon" />
+              </div>
+              <h4>Rock</h4>
+              <p>
+                Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                vitae
+              </p>
+            </div>
+            <div class="swiper-slide swiper--slide swiper--trumpet">
+              <div>
+                <img src="imgs/trumpet.png" alt="trumpet icon" />
+              </div>
+              <h4>Jazz</h4>
+              <p>
+                Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate
+                vitae
+              </p>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+
+      <!-- Section 2 about musik-->
+      <section class="about--musik">
+        <div class="about--musik-imgs">
+          <img
+            class="musik-img1"
+            src="imgs/about-musik-img1.png"
+            alt="about musik image 1"
+          />
+          <img
+            class="musik-img2"
+            src="imgs/about-musik-img2.png"
+            alt="about musik image 2"
+          />
+        </div>
+        <div class="about--musik-info">
+          <h3>About Musik</h3>
+          <p>
+            Fusce justo mi, vehicula id arcu et, dapibus tristique lectus.
+            Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a
+            augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus
+            non neque suscipit luctus. Mauris et erat id ipsum condimentum
+            cursus. Sed tempus enim non massa mattis iaculis. In quis massa
+            risus
+          </p>
+          <button>Learn more -></button>
+        </div>
+      </section>
+
+      <!-- Section 3 singers -->
+      <section class="singers">
+        <div class="singers-info">
+          <h3>Singers</h3>
+          <p>
+            Fusce justo mi, vehicula id arcu et, dapibus tristique lectus.
+            Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a
+            augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus
+            non neque suscipit luctus. Mauris et erat id ipsum condimentum
+            cursus. Sed tempus enim non massa mattis iaculis. In quis massa
+            risus
+          </p>
+          <button>View All Singers -></button>
+        </div>
+        <div class="singers-imgs" id="section--2">
+          <img
+            class="singers--imgs1"
+            src="imgs/singers-img1.png"
+            alt="singer one"
+          />
+          <!-- <img
+            class="singers--imgs1-blur"
+            src="imgs/blur-img1.png"
+            alt="singer one"
+          /> -->
+          <img
+            class="singers--imgs2"
+            src="imgs/singers-img2.png"
+            alt="singer two"
+          />
+          <!-- <img
+            class="singers--imgs2-blur"
+            src="imgs/blur-img2.png"
+            alt="singer two"
+          /> -->
+          <img
+            class="singers--imgs3"
+            src="imgs/singers-img3.png"
+            alt="singer three"
+          />
+          <!-- <img
+            class="singers--imgs3-blur"
+            src="imgs/blur-img3.png"
+            alt="singer three"
+          /> -->
+          <img
+            class="singers--imgs4"
+            src="imgs/singers-img4.png"
+            alt="singer four"
+          />
+          <!-- <img
+            class="singers--imgs4-blur"
+            src="imgs/blur-img4.png"
+            alt="singer four"
+          /> -->
+        </div>
+      </section>
+
+      <!-- Section 4 event schedule -->
+      <section class="section" id="section--3">
+        <div class="operations">
+          <h3>Event Schedule</h3>
+          <div class="operations__tab-container">
+            <button
+              class="btn operations__tab operations__tab--1 operations__tab--active"
+              data-tab="1"
+            >
+              <span>Day 01</span><br />
+              29 december
+            </button>
+            <button class="btn operations__tab operations__tab--2" data-tab="2">
+              <span>Day 02</span><br />
+              30 december
+            </button>
+            <button class="btn operations__tab operations__tab--3" data-tab="3">
+              <span>Day 03</span><br />
+              31 december
+            </button>
+          </div>
+
+          <div
+            class="operations__content operations__content--1 operations__content--active"
+          >
+            <table>
+              <th class="operations__header background-left">Time</th>
+              <th class="operations__header">Content</th>
+              <th
+                style="border-top-right-radius: 20px"
+                class="operations__header background-right"
+              >
+                Speakers
+              </th>
+
+              <tr class="operations__header-row">
+                <td>11:00 AM to 12:00 PM</td>
+                <td>
+                  <p>
+                    Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                  </p>
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span
+                    ><img src="imgs/Avatar.png" alt="" />Yui Ronald <br />Booth:
+                    2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+              <tr class="operations__header-row">
+                <td>12:00 PM to 03:00 PM</td>
+                <td>
+                  <p>
+                    Duis nec sodales nibh. Proin lectus tortor, rutrum vel
+                    vulputate vitae, fringilla id magna. Vestibulum ornare eget
+                    urna nec pulvina.
+                  </p>
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span style="display: flex; align-items: flex-end"
+                    ><img src="imgs/Avatar2.png" alt="" />Bob John <br />Booth:
+                    2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+              <tr class="operations__header-row">
+                <td>03:00 PM to 04:00 PM</td>
+                <td>
+                  Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span
+                    ><img src="imgs/Avatar3.png" alt="" />Sasha Jack
+                    <br />Booth: 2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="operations__content operations__content--2">
+            <table>
+              <th
+                class="operations__header background-left"
+                class="operations__header"
+              >
+                Time
+              </th>
+              <th class="operations__header">Content</th>
+              <th class="operations__header background-right">Speakers</th>
+              <tr class="operations__header-row">
+                <td>11:00 AM to 12:00 PM</td>
+                <td>
+                  <p>
+                    Duis nec sodales nibh. Proin lectus tortor, rutrum vel
+                    vulputate vitae, fringilla id magna. Vestibulum ornare eget
+                    urna nec pulvina.
+                  </p>
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span style="display: flex; align-items: flex-end"
+                    ><img src="imgs/Avatar2.png" alt="" />Bob John <br />Booth:
+                    2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+              <tr class="operations__header-row">
+                <td>12:00 PM to 03:00 PM</td>
+                <td>
+                  Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span style="display: flex; align-items: flex-end"
+                    ><img src="imgs/Avatar3.png" alt="" />Bob John <br />Booth:
+                    2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+              <tr class="operations__header-row">
+                <td>03:00 PM to 04:00 PM</td>
+                <td>
+                  Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span style="display: flex; align-items: flex-end"
+                    ><img src="imgs/Avatar.png" alt="" />Yui Ronald <br />Booth:
+                    2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="operations__content operations__content--3">
+            <table>
+              <th
+                class="operations__header background-left"
+                class="operations__header"
+              >
+                Time
+              </th>
+              <th class="operations__header">Content</th>
+              <th class="operations__header background-right">Speakers</th>
+              <tr class="operations__header-row">
+                <td>11:00 AM to 12:00 PM</td>
+                <td>
+                  <p>
+                    Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                  </p>
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span
+                    ><img src="imgs/Avatar.png" alt="" />Yui Ronald <br />Booth:
+                    2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+              <tr class="operations__header-row">
+                <td>12:00 PM to 03:00 PM</td>
+                <td>
+                  <p>
+                    Duis nec sodales nibh. Proin lectus tortor, rutrum vel
+                    vulputate vitae, fringilla id magna. Vestibulum ornare eget
+                    urna nec pulvina.
+                  </p>
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span style="display: flex; align-items: flex-end"
+                    ><img src="imgs/Avatar2.png" alt="" />Bob John <br />Booth:
+                    2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+              <tr class="operations__header-row">
+                <td>03:00 PM to 04:00 PM</td>
+                <td>
+                  Vestibulum vel eros vel metus lacinia feugiat a nec metus.
+                </td>
+                <td
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                  "
+                >
+                  <span
+                    ><img src="imgs/Avatar3.png" alt="" />Sasha Jack
+                    <br />Booth: 2F12</span
+                  >
+                </td>
+                <td>
+                  <span style="padding-top: 1rem"
+                    >Preview
+                    <img
+                      style="padding-left: 10px"
+                      src="imgs/Play.png"
+                      alt="play icon"
+                  /></span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5 tier section -->
+      <section class="tier--options">
+        <h3>Choose a Tier that’s right for you</h3>
+        <div class="tier--options_gallery">
+          <div class="tier--options_gallery-card card-1">
+            <h4>Basic</h4>
+            <h2>$100</h2>
+            <p class="card-active">1 Seat Available</p>
+            <p>Access to Wifi Router</p>
+            <p>Free Food & Coffee</p>
+            <button class="card-1-btn">Get Tickets</button>
+          </div>
+          <div class="tier--options_gallery-card card-2">
+            <h4>Standard</h4>
+            <h2>$150</h2>
+            <p class="card-active">1 Seat Available</p>
+            <p class="card-active">Access to Wifi Router</p>
+            <p>Free Food & Coffee</p>
+            <button class="card-2-btn">Get Tickets</button>
+          </div>
+          <div class="tier--options_gallery-card card-3">
+            <h4>Premium</h4>
+            <h2>$200</h2>
+            <p class="card-active">1 Seat Available</p>
+            <p class="card-active">Access to Wifi Router</p>
+            <p class="card-active">Free Food & Coffee</p>
+            <button class="card-3-btn">Get Tickets</button>
+          </div>
+        </div>
+      </section>
+      <!-- Section 6 our sponsors section -->
+      <section class="our--sponsors">
+        <h3>Our Sponsors</h3>
+        <div class="our--sponsors-icons">
+          <img src="imgs/sponsors-img1.png" alt="sponsor google" />
+          <img src="imgs/sponsors-img2.png" alt="sponsor microsoft" />
+          <img src="imgs/sponsors-img3.png" alt="sponsor airbnb" />
+          <img src="imgs/sponsors-img4.png" alt="sponsor axure" />
+          <img src="imgs/sponsors-img5.png" alt="sponsor apple" />
+          <img src="imgs/sponsors-img6.png" alt="sponsor facebook" />
+          <img src="imgs/sponsors-img7.png" alt="sponsor nokia" />
+          <img src="imgs/sponsors-img8.png" alt="sponsor oracle" />
+        </div>
+        <button class="our--sponsors-btn">Become a Sponsor</button>
+      </section>
+
+      <!-- Testimonials section -->
+      <section>
+        <div class="slider">
+          <h3>Testimonials</h3>
+          <div class="slide">
+            <div class="testimonial">
+              <blockquote class="testimonial__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                voluptatibus.
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  src="imgs/testimonials-ava1.png"
+                  alt="testimonials image 1"
+                  class="testimonial__photo"
+                />
+                <h6 class="testimonial__name">Ellie James</h6>
+                <p class="testimonial__webpage">
+                  <a class="testimonial__webpage" href="#">ipsum.com</a>
+                </p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <blockquote class="testimonial__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                voluptatibus.
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  src="imgs/testimonials-ava2.png"
+                  alt="testimonials image 2"
+                  class="testimonial__photo"
+                />
+                <h6 class="testimonial__name">Miyah Miles</h6>
+                <p class="testimonial__webpage">
+                  <a class="testimonial__webpage" href="#">ipsum.com</a>
+                </p>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="testimonial">
+              <blockquote class="testimonial__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                voluptatibus.
+              </blockquote>
+              <address class="testimonial__author">
+                <img
+                  src="imgs/testimonials-ava3.png"
+                  alt="testimonials image 3"
+                  class="testimonial__photo"
+                />
+                <h6 class="testimonial__name">Myne Barack</h6>
+                <p class="testimonial__webpage">
+                  <a class="testimonial__webpage" href="#">ipsum.com</a>
+                </p>
+              </address>
+            </div>
+          </div>
+
+          <button class="slider__btn slider__btn--left">&larr;</button>
+          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <div class="dots"></div>
+        </div>
+      </section>
+
+      <!-- Section 8 "Best shots" -->
+
+      <div class="swiper swiper-best-shots">
+        <h3>See our Best Shots</h3>
+        <div class="swiper-wrapper swiper-wrapper-best-shot">
+          <div class="swiper-slide swiper-bestshots-slide">
+            <div class="swiper-bestshots-slide-div">
+              <img
+                class="best--shots-slides-img"
+                src="imgs/inst-img1.png"
+                alt="best shots image"
+              />
+              <br />
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-like-icon.png"
+                alt=""
+              />412
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-comment-icon.png"
+                alt=""
+              />140
+            </div>
+            <h4>Lorem Ipsum Amet</h4>
+            <p>
+              #music #concert #conference #london #event #artist #dj #soundtrack
+              #dance
+            </p>
+          </div>
+          <div class="swiper-slide swiper-bestshots-slide">
+            <div class="swiper-bestshots-slide-div">
+              <img
+                class="best--shots-slides-img"
+                src="imgs/inst-img2.png"
+                alt="best shots image"
+              />
+              <br />
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-like-icon.png"
+                alt=""
+              />412
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-comment-icon.png"
+                alt=""
+              />140
+            </div>
+            <h4>Lorem Ipsum Amet</h4>
+            <p>
+              #music #concert #conference #london #event #artist #dj #soundtrack
+              #dance
+            </p>
+          </div>
+          <div class="swiper-slide swiper-bestshots-slide">
+            <div class="swiper-bestshots-slide-div">
+              <img
+                class="best--shots-slides-img"
+                src="imgs/inst-img3.png"
+                alt="best shots image"
+              />
+              <br />
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-like-icon.png"
+                alt=""
+              />412
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-comment-icon.png"
+                alt=""
+              />140
+            </div>
+            <h4>Lorem Ipsum Amet</h4>
+            <p>
+              #music #concert #conference #london #event #artist #dj #soundtrack
+              #dance
+            </p>
+          </div>
+          <div class="swiper-slide swiper-bestshots-slide">
+            <div class="swiper-bestshots-slide-div">
+              <img
+                class="best--shots-slides-img"
+                src="imgs/inst-img4.png"
+                alt="best shots image"
+              />
+              <br />
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-like-icon.png"
+                alt=""
+              />412
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-comment-icon.png"
+                alt=""
+              />140
+            </div>
+            <h4>Lorem Ipsum Amet</h4>
+            <p>
+              #music #concert #conference #london #event #artist #dj #soundtrack
+              #dance
+            </p>
+          </div>
+          <div class="swiper-slide swiper-bestshots-slide">
+            <div class="swiper-bestshots-slide-div">
+              <img
+                class="best--shots-slides-img"
+                src="imgs/inst-img5.png"
+                alt="best shots image"
+              />
+              <br />
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-like-icon.png"
+                alt=""
+              />412
+              <img
+                class="like-icon-inst"
+                src="imgs/inst-comment-icon.png"
+                alt=""
+              />140
+            </div>
+            <h4>Lorem Ipsum Amet</h4>
+            <p>
+              #music #concert #conference #london #event #artist #dj #soundtrack
+              #dance
+            </p>
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+      </div>
+
+      <!-- //////////////////////////////////////// -->
+    </main>
+
+    <footer>
+      <section class="footer-wrapper" id="section--4">
+        <div class="footer-contact">
+          <h3>Contact us</h3>
+          <h4>Have an inquiry? We’ll be happy to assist you</h4>
+          <div>
+            <span
+              ><img src="imgs/phone.png" alt="phone icon" />
+              <p>+92 333 6527366</p>
+            </span>
+            <span
+              ><img src="imgs/Email.png" alt="email icon" />
+              <p>abuzer@greelogix.com</p>
+            </span>
+            <span
+              ><img src="imgs/location.png" alt="location icon" />
+              <p>Plot 252, Block L Phase 2 Johar Town, Lahore, PK</p>
+            </span>
+          </div>
+        </div>
+        <div class="footer-form">
+          <h4>Fill in your details</h4>
+          <form name="footer-form-validate" onsubmit="return validateForm()">
+            <label for="fname">Name:</label><br />
+            <input type="text" id="fname" name="fname" value="" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" /><br />
+            <label for="messageArea">Message:</label><br />
+
+            <textarea
+              class="footer-textarea"
+              name="messageArea"
+              rows="4"
+              cols="50"
+            ></textarea
+            ><br />
+            <input
+              id="btn-form-submit"
+              class="form-submit-btn"
+              type="submit"
+              value="Submit"
+            />
+          </form>
+        </div>
+      </section>
+
+      <section class="footer-nav">
+        <img
+          class="footer-nav-logo"
+          src="imgs/nav-logo.png"
+          alt="footer navigation"
+        />
+        <div class="footer-nav--wrapper">
+          <div class="footer-nav-info">
+            <a href="#">HOME</a>
+            <a href="#">COMPANY</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT US</a>
+            <a href="#">SITEMAP</a>
+          </div>
+          <div class="footer-nav-social">
+            <a href=""
+              ><img
+                src="imgs/footer-nav-icon1.png"
+                alt="footer social media icon"
+              />
+            </a>
+            <a href=""
+              ><img
+                src="imgs/footer-nav-icon2.png"
+                alt="footer social media icon"
+              />
+            </a>
+            <a href=""
+              ><img
+                src="imgs/footer-nav-icon3.png"
+                alt="footer social media icon"
+              />
+            </a>
+            <a href=""
+              ><img
+                src="imgs/footer-nav-icon4.png"
+                alt="footer social media icon"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
